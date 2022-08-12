@@ -1,0 +1,219 @@
+body{
+    background-image: url(img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table {
+    margin: 8rem 5rem;
+}
+
+.headings,
+.topics {
+    margin: 2.55rem 10rem;
+}
+
+.heading-1 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 18rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(224, 156, 18);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.heading-2 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 10rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(224, 156, 18);
+}
+
+.heading-3 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 18rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(224, 156, 18);}
+
+.heading-4 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 13rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(224, 156, 18);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.topic-1 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 18rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(74, 105, 241);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.topic-2 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 10rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(74, 105, 241);
+}
+
+.topic-3 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 18rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(74, 105, 241);
+}
+
+.topic-4 {
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 13rem;
+    height: 3.3rem;
+    margin: -20rem -1rem;
+    background-color: rgb(74, 105, 241);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.heading-1 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.heading-2 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.heading-3 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.heading-4 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.topic-1 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.topic-2 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.topic-3 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -1rem;
+    align-items: center;
+    justify-content: center;
+}
+.topic-4 h1 {
+    font-size: 20px;
+    padding: 0rem 3rem;
+    margin: .5rem -2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1339px) {
+    .table {
+        margin: 0rem 2rem;
+    } 
+}
+
+@media (max-width:1243px) {
+    .table {
+        margin: 0rem -8rem;
+    } 
+}
+
+@media (max-width:923px) {
+
+    .table {
+        margin: 0rem -4rem;
+    } 
+
+    .headings,
+.topics {
+    margin: 2.20rem 10rem;
+}
+
+   .heading-1 {
+       width: 12rem;
+       height: 3rem;
+   }
+   
+   .heading-1 h1 {
+       padding: 0rem 2.5rem ;
+   }
+   
+   .heading-2 {
+       width: 8rem;
+       height: 3rem;
+   }
+   .heading-3{
+       width: 10rem;
+       height: 3rem;
+   }
+   .heading-4 {
+       width: 12rem;
+       height: 3rem;
+   }
+
+   .topic-1 {
+       width: 12rem;
+       height: 3rem;
+   }
+   
+   .topic-1 h1 {
+       padding: 0rem 2.5rem ;
+   }
+   
+   .topic-2 {
+       width: 8rem;
+       height: 3rem;
+   }
+   .topic-3{
+       width: 10rem;
+       height: 3rem;
+   }
+   .topic-4 {
+       width: 12rem;
+       height: 3rem;
+   }
+
+}
